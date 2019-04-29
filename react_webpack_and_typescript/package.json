@@ -1,0 +1,38 @@
+{
+  "name": "react-webpack-and-typescript",
+  "version": "0.0.1",
+  "description": "Wire up TypeScript with React and Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregorSondermeier/learning-react.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "typescript"
+  ],
+  "author": "Gregor Sondermeier <gregor.sondermeier.github@gmail.com> (https://github.com/GregorSondermeier)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/GregorSondermeier/learning-react/issues"
+  },
+  "homepage": "https://github.com/GregorSondermeier/learning-react/tree/master/react_webpack_and_typescript",
+  "dependencies": {
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.4.5",
+    "webpack-cli": "^3.3.1"
+  }
+}
