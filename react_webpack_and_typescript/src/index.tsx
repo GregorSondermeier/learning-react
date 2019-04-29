@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { Hello } from "./components/hello/Hello";
+import { GscHello } from "./components/hello/Hello";
 
 ReactDOM.render(
-    <Hello compiler="TypeScript" framework="React" />,
+    <GscHello gspCompiler="TypeScript" gspFramework="React" />,
     document.getElementById("example")
 );
