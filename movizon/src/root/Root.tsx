@@ -1,22 +1,18 @@
 import React from 'react';
-import logo from '../_assets/img/logo.svg';
 import './Root.scss';
+import { MzHeader } from "../header/Header";
+import logo from "../_assets/img/logo.svg";
 
 const MzRoot: React.FC = () => {
+
+  const foo: string = "bar";
+
   return (
     <div className="MzRoot">
-      <header className="MzRoot-header">
-        <img src={logo} className="MzRoot-logo" alt="logo" />
-        <p>
-          Edit <code>src/Root.tsx</code> and save to reload.
-        </p>
-        <a className="MzRoot-link"
-           href="https://reactjs.org"
-           target="_blank"
-           rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+      <MzHeader mzFoo={foo} />
+      <div className="MzRoot-background">
+        <img src={logo} className="MzRoot-logo" alt="logo"/>
+      </div>
     </div>
   );
 };
