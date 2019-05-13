@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../logo.svg';
-import './Root.css';
+import logo from '../_assets/img/logo.svg';
+import './Root.scss';
 
 const MzRoot: React.FC = () => {
   return (
@@ -10,12 +10,10 @@ const MzRoot: React.FC = () => {
         <p>
           Edit <code>src/Root.tsx</code> and save to reload.
         </p>
-        <a
-          className="MzRoot-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className="MzRoot-link"
+           href="https://reactjs.org"
+           target="_blank"
+           rel="noopener noreferrer">
           Learn React
         </a>
       </header>
