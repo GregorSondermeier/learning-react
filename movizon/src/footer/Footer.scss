@@ -1,8 +1,7 @@
 @import "../_scss/config/variables";
 
-.MzHeader {
-	position: fixed;
-	width: 100%;
+.MzFooter {
 	padding: $spacing-half $spacing-quarter;
 	background-color: $color-bg-well;
+	text-align: center;
 }
