@@ -4,6 +4,11 @@ To learn [React](https://reactjs.org/), I'm creating an app that allows to add m
 personal scope (your "horizon") to create various lists with. For instance a watch list. Inspiration comes from the
 likes of [Goodreads](https://www.goodreads.com/) and [IMDb](https://www.imdb.com/).
 
+## Technologies
+
+* React
+* TypeScript
+
 ## Dev Info 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
